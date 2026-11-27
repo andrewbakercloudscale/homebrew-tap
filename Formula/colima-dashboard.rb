@@ -2,15 +2,15 @@
 class ColimaDashboard < Formula
   desc "Local web dashboard for Colima: containers, images, logs, Kubernetes and fixes"
   homepage "https://github.com/andrewbakercloudscale/colima-dashboard"
-  version "0.1.25"
+  version "0.1.26"
   license "Apache-2.0"
 
   if Hardware::CPU.arm?
-    url "https://github.com/andrewbakercloudscale/colima-dashboard/releases/download/v0.1.25/colima-dashboard_0.1.25_darwin_arm64.tar.gz"
-    sha256 "3b010738d8a9eb1f9684ea2bc2724f135fcf6b1d3bea3822ce835067fe254eb6"
+    url "https://github.com/andrewbakercloudscale/colima-dashboard/releases/download/v0.1.26/colima-dashboard_0.1.26_darwin_arm64.tar.gz"
+    sha256 "ba23efaa426bfcd02f53ab422be1985eae856af031a5ca4eeb769484412ccded"
   else
-    url "https://github.com/andrewbakercloudscale/colima-dashboard/releases/download/v0.1.25/colima-dashboard_0.1.25_darwin_amd64.tar.gz"
-    sha256 "07645871a9b2f969b8026adda9bc085ef36382a98cd539d11cc403d66a3bdcf6"
+    url "https://github.com/andrewbakercloudscale/colima-dashboard/releases/download/v0.1.26/colima-dashboard_0.1.26_darwin_amd64.tar.gz"
+    sha256 "bb01c1d6a93f5d269523339386afeab111fbeeb8792dfe121e0833964fc65535"
   end
 
   depends_on "colima"
